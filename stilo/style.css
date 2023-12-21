@@ -1,0 +1,52 @@
+
+body{
+    background-image: url(/imagens/fundo.png);
+    
+}
+
+.capa__anna{
+    width: 70%;
+}
+
+.header__lista{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items:center;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.header__a{
+    color: #18084c;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+.sobre__anna{
+   width: 65%;
+    background:#fbefd9; 
+    gap: 10px;
+    padding: 10px;
+}
+
+.titulo__nome{
+    color: #938061;
+    
+}
+
+.biografia__ana{
+    font-size: 20px;
+}
+
+footer{
+    width: 65%;
+    display:flex;
+    justify-content: center;
+    flex-direction:center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px;
+}
