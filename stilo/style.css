@@ -1,33 +1,37 @@
 
 body{
-    background-image: url(/imagens/fundo.png);
-    
+    background-image: #ccccbf url(/imagens/fundo.png);
+
 }
 
-.capa__anna{
-    width: 70%;
+#principal{
+    width: 900px;
 }
 
 .header__lista{
+    background: #c5c5b2;
     display:flex;
     flex-direction:row;
     justify-content: flex-start;
     align-items:center;
     list-style-type: none;
+    padding: 18px;
     gap: 10px;
+
 }
+
 
 .header__a{
     color: #18084c;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 16px;
     font-weight: bold;
+    text-transform: uppercase;
     
 }
 
 .sobre__anna{
-   width: 46%;
-    background:#fbefd9; 
+    background: #c5c5b2;
     gap: 10px;
     padding: 10px;
 }
@@ -42,11 +46,14 @@ body{
 }
 
 footer{
-    width: 47%;
     display:flex;
-    justify-content: center;
-    flex-direction:center;
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 16px;
     font-weight: bold;
     padding: 20px;
+}
+
+.foto_campanha{
+    border: 10%;
+    border-color: #e10d0d;
 }
