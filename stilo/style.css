@@ -1,6 +1,6 @@
 
 body{
-    background-image: #ccccbf url(/imagens/fundo.png);
+    background-image:  #ccccbf url(/imagens/fundo.png);
 
 }
 
@@ -57,3 +57,4 @@ footer{
     border: 10%;
     border-color: #e10d0d;
 }
+
